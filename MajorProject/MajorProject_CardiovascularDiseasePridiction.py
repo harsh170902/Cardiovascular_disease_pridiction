@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
 
 import pandas as pd
 import numpy as np
@@ -16,6 +11,7 @@ import matplotlib.pyplot as plt
 df = pd.read_csv("cardio_train.csv", sep=";")
 df = df.drop(['id'], axis = 1)
 df
+
 
 
 # In[6]:
